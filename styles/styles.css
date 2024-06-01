@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.Title {
+    padding: 120px 0px;
+}
