@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
+    /* width: 1320px; */
     text-align: center;
     color: white;
     margin: 30px 0px 70px;
@@ -15,8 +16,12 @@
 
 .banner-title {
     padding: 180px 0px;
-    /* font-size: 40px; */
+    font-size: 40px;
     color: whitesmoke;
+}
+
+main {
+    margin: 0;
 }
 
 .deals {
@@ -38,5 +43,38 @@
 .deals h2 {
     font-size: 35px;
     padding-bottom: 40px;
+}
 
+.party {
+    background-image: url(../resources/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    color: white;
+    margin: 70px 0px 70px;
+    padding-top: 70px;
+}
+
+.year-image {
+    padding-right: 50px;
+}
+
+.party h1 {
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+.party p {
+    padding: 30px 0px;
+}
+
+.party button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding-left: 40px;
+    cursor: pointer;
 }
