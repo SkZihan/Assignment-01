@@ -1,6 +1,6 @@
 /* Common styles */
 * {
-    margin: 0px 30px;
+    margin: 0px;
     padding: 0;
 }
 
@@ -13,7 +13,7 @@
     /* width: 1320px; */
     text-align: center;
     color: white;
-    margin: 30px 0px 70px;
+    margin: 30px 60px 70px;
 }
 
 .banner-title {
@@ -24,7 +24,7 @@
 
 /* Main-part styles */
 main {
-    margin: 0;
+    margin: 0 60px;
 }
 
 /* Section (deals) */
@@ -58,10 +58,11 @@ main {
     display: flex;
     color: white;
     margin: 70px 0px;
+    padding-left: 60px;
 }
 
 .year-image {
-    padding-right: 50px;
+    padding: 50px;
 }
 
 .party-section h1 {
@@ -169,7 +170,7 @@ main {
     margin: 10px 0px;
 }
 
-/* Section (sale-section) */
+/* Section (sale) */
 
 .sale-heading {
     text-align: center;
@@ -187,7 +188,7 @@ main {
 
 /* Image-part-left */
 
-/* Section (gifts-section) */
+/* Section (gifts) */
 .gifts-section {
     margin: 70px 0px;
 }
@@ -224,4 +225,73 @@ main {
 .gift-images img {
     margin: 10px 0px;
     width: 32%;
+}
+
+/* Section (newsletter) */
+
+.newsletter-section {
+    background-color: rgb(248, 237, 250);
+    margin: 0;
+    height: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.newsletter-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.newsletter-section h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.newsletter-section p {
+    color: rgba(22, 22, 21, 0.411);
+    margin: 0px 200px;
+}
+
+/* Input field Left*/
+
+/* Footer part styles */
+footer {
+    margin: 70px 0 0;
+    padding: 100px 200px 30px;
+    color: white;
+    height: 350px;
+    background-color: rgb(11, 3, 29);
+}
+
+footer p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container {
+    text-align: center;
+    margin: 40px 0px;
+    padding: 20px 0px;
+    border-top: 2px solid rgba(61, 60, 60, 0.404);
+    border-bottom: 2px solid rgba(61, 60, 60, 0.404);
+}
+
+.button-container button {
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
 }
