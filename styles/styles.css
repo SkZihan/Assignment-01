@@ -148,6 +148,7 @@ main {
 
 /* Middle-image */
 .middle-image img {
+    margin: 0px 60px;
     padding: 40px;
     border: 10px solid red;
     border-radius: 100%;
@@ -171,10 +172,8 @@ main {
 }
 
 /* Section (sale) */
-
-.sale-heading {
+.sale-section {
     text-align: center;
-    margin: 0px 100px 60px;
 }
 
 .sale-heading h4 {
@@ -186,7 +185,13 @@ main {
     margin: 10px 0px;
 }
 
+.sale-heading p {
+    color: rgba(22, 22, 21, 0.411);
+    margin: 0px 150px 60px;
+}
+
 /* Image-part-left */
+
 
 /* Section (gifts) */
 .gifts-section {
@@ -253,7 +258,25 @@ main {
     margin: 0px 200px;
 }
 
-/* Input field Left*/
+.input-field input {
+    font-size: 20px;
+    color: black;
+    margin: 30px 0px;
+    padding: 12px 50px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.input-field button {
+    font-size: 20px;
+    padding: 12px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
 
 /* Footer part styles */
 footer {
